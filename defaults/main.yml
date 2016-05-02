@@ -1,2 +1,5 @@
 ---
 # defaults file for ansible-role-tripleo-overcloud-scale-nodes
+
+artosn_working_dir: /home/stack
+artosn_undo_scale: true
