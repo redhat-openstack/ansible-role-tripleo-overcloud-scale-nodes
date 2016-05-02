@@ -1,2 +1,27 @@
 ---
 # tasks file for ansible-role-tripleo-overcloud-scale-nodes
+
+# TODO: 1. Abstract type of node to be scaled
+# TODO: 2. Add overcloud validation post scale
+# TODO: 3. Add 'remove node' post validation
+# TODO: 4. Add overcloud validation post 'remove node'
+
+- name: Copy scale deployment template to undercloud
+  template:
+    src: scale-deployment.j2
+    dest: "{{ artosn_working_dir }}/scale-deployment.sh"
+    mode: 0755
+
+- name: Call scale deployment script
+  shell: >
+    source "{{ artosn_working_dir }}/stackrc";
+    "{{ artosn_working_dir }}"/scale-deployment.sh &> overcloud_deployment_scale_console.log;
+
+- name: Poll heat stack-list to determine when complete
+  shell: >
+    source "{{ artosn_working_dir }}"/stackrc;
+    heat stack-list
+  register: heat_stack_list_result
+  until: heat_stack_list_result.stdout.find("UPDATE_COMPLETE") != -1
+  retries: 10
+  delay: 180
