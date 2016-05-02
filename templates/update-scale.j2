@@ -1,0 +1,8 @@
+# TODO: 1. Finish porting variables to artosn namespace
+# TODO: 2. Determine what should be 'default'
+# TODO: 3. Determine how we want this conditional to trigger and what the defaults should be
+
+{% if product.build_version is defined and product.build_version == 'ga-7.1'and installer.network.isolation != 'none' %}
+export DEPLOY_COMMAND="$DEPLOY_COMMAND -e {{ artosn_working_dir }}/local_tht/environments/updates/update-from-vip.yaml "
+export DELETE_COMMAND="$DELETE_COMMAND -e {{ artosn_working_dir }}/local_tht/environments/updates/update-from-vip.yaml "
+{% endif %}

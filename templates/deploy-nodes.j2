@@ -1,0 +1,14 @@
+# TODO: 2. Determine what should be 'default'
+
+#!/bin/bash
+export NODES_JSON=instackenv.json
+export CONTROLSCALE={{ artosn_controller.scale }}
+export COMPUTESCALE={{ artosn_compute.scale }}
+export BLOCKSTORAGESCALE={{ artosn_blockstorage.scale }}
+export SWIFTSTORAGESCALE={{ artosn_swiftstorage.scale }}
+export CEPHSTORAGESCALE={{ artosn_cephstorage.scale }}
+export CONTROLFLAVOR={{ artosn_controller.flavor }}
+export COMPUTEFLAVOR={{ artosn_compute.flavor }}
+export BLOCKSTORAGEFLAVOR={{ artosn_blockstorage.flavor }}
+export SWIFTSTORAGEFLAVOR={{ artosn_swiftstorage.flavor }}
+export CEPHSTORAGEFLAVOR={{ artosn_cephstorage.flavor }}

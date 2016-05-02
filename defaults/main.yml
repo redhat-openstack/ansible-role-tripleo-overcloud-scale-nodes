@@ -1,2 +1,23 @@
 ---
 # defaults file for ansible-role-tripleo-overcloud-scale-nodes
+
+# Variables ported from old overcloud-scale-nodes in Khaleesi
+artosn_compute:
+  # Optional Values!
+  # - scale_change (int?)
+  # - type (??)
+  # - type_number (int?)
+  # - nova_list_type (??)
+  # - scale (??)
+  # - flavor (??)
+artosn_cephstorage:
+artosn_blockstorage:
+artosn_swiftstorage:
+
+artosn_controller:
+  # Required Values!
+  # - scale (??)
+  # - flavor (??)
+artosn_node_to_scale:
+
+artosn_working_dir: /home/stack

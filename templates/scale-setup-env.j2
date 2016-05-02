@@ -1,0 +1,30 @@
+# TODO: 2. Determine what should be 'default'
+
+#!/bin/bash
+{% if artosn_compute.scale_change is defined %}
+export NODE_TO_SCALE_PLAN_TYPE={{ artosn_compute.type }}-{{ artosn_compute.type_number | default('1') }}
+export NODE_SCALE_CHANGE={{ artosn_compute.scale_change | int }}
+export COMPUTESCALE=$NODE_SCALE_CHANGE
+export NODE_TO_SCALE_TYPE={{ artosn_compute.nova_list_type }}
+{%endif %}
+
+{% if artosn_blockstorage.scale_change is defined %}
+export NODE_TO_SCALE_PLAN_TYPE={{ artosn_blockstorage.type }}-{{ artosn_blockstorage.type_number | default('1') }}
+export NODE_SCALE_CHANGE={{ artosn_blockstorage.scale_change | int }}
+export BLOCKSTORAGESCALE=$NODE_SCALE_CHANGE
+export NODE_TO_SCALE_TYPE={{ artosn_blockstorage.nova_list_type }}
+{%endif %}
+
+{% if artosn_swiftstorage.scale_change is defined %}
+export NODE_TO_SCALE_PLAN_TYPE={{ artosn_swiftstorage.type }}-{{ artosn_swiftstorage.type_number | default('1') }}
+export NODE_SCALE_CHANGE={{ artosn_swiftstorage.scale_change | int }}
+export SWIFTSTORAGESCALE=$NODE_SCALE_CHANGE
+export NODE_TO_SCALE_TYPE={{ artosn_swiftstorage.nova_list_type }}
+{%endif %}
+
+{% if artosn_cephstorage.scale_change is defined %}
+export NODE_TO_SCALE_PLAN_TYPE={{ artosn_cephstorage.type }}-{{ artosn_cephstorage.type_number | default('1') }}
+export NODE_SCALE_CHANGE={{ artosn_cephstorage.scale_change | int }}
+export CEPHSTORAGESCALE=$NODE_SCALE_CHANGE
+export NODE_TO_SCALE_TYPE={{ artosn_cephstorage.nova_list_type }}
+{%endif %}
