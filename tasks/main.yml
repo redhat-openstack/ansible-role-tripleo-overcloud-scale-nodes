@@ -1,2 +1,30 @@
 ---
 # tasks file for ansible-role-tripleo-overcloud-scale-nodes
+
+# TODO: 1. DONE: Abstract type of node to be scaled
+# TODO: 2. Add overcloud validation post scale
+# TODO: 3. DONE: Add 'remove node' post validation
+# TODO: 4. Add overcloud validation post 'remove node'
+# TODO: 5. DONE: Port to a set of roles
+
+- include: pre-scale.yml
+  when: artosn_scale_nodes
+  tags:
+    - pre-overcloud-scale-nodes
+
+- include: scale-nodes.yml
+  when: artosn_scale_nodes
+  tags:
+    - overcloud-scale-nodes
+
+# TODO: Validate the overcloud
+# @weshay We can't include a role within a role. So do we ant to move the validate logic out to the playbook
+# w/i CAT that is calling this role? If we do that we can't insert it after scale and after delete
+
+# Optionally reduce scale back to original state
+- include: undo-scale.yml
+  when: artosn_undo_scale
+  tags:
+    - post-overcloud-scale-nodes-delete
+
+# TODO: Validate the overcloud
