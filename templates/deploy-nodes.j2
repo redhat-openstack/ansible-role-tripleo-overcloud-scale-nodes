@@ -1,0 +1,15 @@
+# TODO: 1. Port variables to artosn namespace
+# TODO: 2. Determine what should be 'default'
+
+#!/bin/bash
+export NODES_JSON=instackenv.json
+export CONTROLSCALE={{ installer.nodes.controller.scale }}
+export COMPUTESCALE={{ installer.nodes.compute.scale }}
+export BLOCKSTORAGESCALE={{ installer.nodes.blockstorage.scale }}
+export SWIFTSTORAGESCALE={{ installer.nodes.swiftstorage.scale }}
+export CEPHSTORAGESCALE={{ installer.nodes.cephstorage.scale }}
+export CONTROLFLAVOR={{ installer.nodes.controller.flavor }}
+export COMPUTEFLAVOR={{ installer.nodes.compute.flavor }}
+export BLOCKSTORAGEFLAVOR={{ installer.nodes.blockstorage.flavor }}
+export SWIFTSTORAGEFLAVOR={{ installer.nodes.swiftstorage.flavor }}
+export CEPHSTORAGEFLAVOR={{ installer.nodes.cephstorage.flavor }}
