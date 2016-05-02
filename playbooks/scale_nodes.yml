@@ -1,0 +1,17 @@
+---
+
+# Scale nodes w/o delete
+- name: Scale overcloud nodes
+  hosts: undercloud
+  roles:
+    - { role: ansible-role-tripleo-overcloud-scale-nodes, artosn_scale_nodes: true, artosn_undo_scale: false }
+
+# Undo scale nodes
+- name: Undo scale overcloud nodes
+  hosts: undercloud
+  roles:
+    - { role: ansible-role-tripleo-overcloud-scale-nodes, artosn_scale_nodes: false, artosn_undo_scale: true }
+
+# NOTE(hrybacki: inventory regeneration and overcloud validation must be completed in a second playbook. The
+# deleted node is removed from the hosts file. However, it still exists in memory and will cause the
+# 'ansible-role-tripleo-inventory: regenerate ssh config' task to fail when attempting to acces non-existant host vars
