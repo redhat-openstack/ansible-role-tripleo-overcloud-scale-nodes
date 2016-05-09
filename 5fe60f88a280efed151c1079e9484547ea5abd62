@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_cbb47636",
+        "filename": "templates/deploy-overcloudrc.j2",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000586
+      },
+      "writtenOn": "2016-05-09T13:04:52Z",
+      "side": 1,
+      "message": "hrm.. this is the khaleesi method to construct the deployment command.  Rather than using this, use the quickstart method found in roles/tripleo/overcloud/defaults/main.yml",
+      "revId": "5fe60f88a280efed151c1079e9484547ea5abd62",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
