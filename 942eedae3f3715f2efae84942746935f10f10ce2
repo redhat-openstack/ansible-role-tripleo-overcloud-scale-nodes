@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "baa041b7_31d468ea",
+        "filename": "defaults/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000777
+      },
+      "writtenOn": "2016-05-11T10:54:42Z",
+      "side": 1,
+      "message": "this file should contain variables to build the deploy arguments",
+      "revId": "942eedae3f3715f2efae84942746935f10f10ce2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_eba5f346",
         "filename": "templates/scale-deployment.j2",
         "patchSetId": 3
@@ -13,6 +30,41 @@
       "writtenOn": "2016-05-11T00:41:28Z",
       "side": 1,
       "message": "would this only work w/ the compute node?",
+      "revId": "942eedae3f3715f2efae84942746935f10f10ce2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_d172dc10",
+        "filename": "templates/scale-deployment.j2",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000777
+      },
+      "writtenOn": "2016-05-11T10:54:42Z",
+      "side": 1,
+      "message": "This is done from the undercloud, so hypervisors here is synonymous to nodes (ironic hypervisors). Should work with eveything, but this just hangs when there is a problem with the hardware discovery",
+      "parentUuid": "baa041b7_eba5f346",
+      "revId": "942eedae3f3715f2efae84942746935f10f10ce2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_d1d65cf0",
+        "filename": "templates/scale-deployment.j2",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000777
+      },
+      "writtenOn": "2016-05-11T10:54:42Z",
+      "side": 1,
+      "message": "There are no scale_args or DEPLOY_ENV_YAML defined anywhere",
       "revId": "942eedae3f3715f2efae84942746935f10f10ce2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
