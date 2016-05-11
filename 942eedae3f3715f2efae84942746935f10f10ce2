@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_eba5f346",
+        "filename": "templates/scale-deployment.j2",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000586
+      },
+      "writtenOn": "2016-05-11T00:41:28Z",
+      "side": 1,
+      "message": "would this only work w/ the compute node?",
+      "revId": "942eedae3f3715f2efae84942746935f10f10ce2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
