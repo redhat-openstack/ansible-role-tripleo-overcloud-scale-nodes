@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_7c5647cf",
+        "filename": "defaults/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-05-11T13:20:19Z",
+      "side": 1,
+      "message": "We need to decide if that is the case. After talking with @weshay we have moved these variables into cat/config/scale/?\u003cconfig to scale\u003e e.g.: https://review.gerrithub.io/#/c/274987/3/config/scale/scale_compute.yml\n\nIf we want to set something here it should be default, do we know what a default scale is?",
+      "parentUuid": "baa041b7_31d468ea",
+      "revId": "942eedae3f3715f2efae84942746935f10f10ce2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_eba5f346",
         "filename": "templates/scale-deployment.j2",
         "patchSetId": 3
@@ -65,6 +83,24 @@
       "writtenOn": "2016-05-11T10:54:42Z",
       "side": 1,
       "message": "There are no scale_args or DEPLOY_ENV_YAML defined anywhere",
+      "revId": "942eedae3f3715f2efae84942746935f10f10ce2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_1cf97bc7",
+        "filename": "templates/scale-deployment.j2",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-05-11T13:20:19Z",
+      "side": 1,
+      "message": "I need to document these variables in the README but as per my previous comment these are being set right now within the CAT scale config file(s). We are also constrained by the way tripleo injects arguments into it (deploy_args and here scale_args)",
+      "parentUuid": "baa041b7_d1d65cf0",
       "revId": "942eedae3f3715f2efae84942746935f10f10ce2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
