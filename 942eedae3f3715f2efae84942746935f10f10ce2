@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_dcf79357",
+        "filename": "defaults/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000777
+      },
+      "writtenOn": "2016-05-11T14:33:21Z",
+      "side": 1,
+      "message": "I still don\u0027t know too much about cat, that is certainly a better place for the config.",
+      "parentUuid": "baa041b7_7c5647cf",
+      "revId": "942eedae3f3715f2efae84942746935f10f10ce2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_eba5f346",
         "filename": "templates/scale-deployment.j2",
         "patchSetId": 3
