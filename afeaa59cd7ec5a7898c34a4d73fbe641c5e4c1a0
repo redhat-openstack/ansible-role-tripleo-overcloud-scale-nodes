@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_93ea0773",
+        "filename": "templates/scale-deployment.j2",
+        "patchSetId": 7
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000586
+      },
+      "writtenOn": "2016-05-16T20:56:37Z",
+      "side": 1,
+      "message": "this only works for compute",
+      "revId": "afeaa59cd7ec5a7898c34a4d73fbe641c5e4c1a0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
