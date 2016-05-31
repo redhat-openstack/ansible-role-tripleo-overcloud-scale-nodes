@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_9a078881",
+        "filename": "tasks/undo-scale.yml",
+        "patchSetId": 14
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000779
+      },
+      "writtenOn": "2016-05-31T14:21:16Z",
+      "side": 1,
+      "message": "Why undo rather than delete?\nIt is possible to delete the original node - not just the one added from scaling up",
+      "revId": "cf111ae260ae3c7a7e3fde2edd310d47b4f66019",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
