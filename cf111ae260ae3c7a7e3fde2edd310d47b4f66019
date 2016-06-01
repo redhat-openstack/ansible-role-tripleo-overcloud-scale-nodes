@@ -34,6 +34,23 @@
       "revId": "cf111ae260ae3c7a7e3fde2edd310d47b4f66019",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_356f6dfd",
+        "filename": "templates/scale-deployment.j2",
+        "patchSetId": 14
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000779
+      },
+      "writtenOn": "2016-06-01T12:48:34Z",
+      "side": 1,
+      "message": "What\u0027s the difference to {{ working_dir }} used elsewhere?",
+      "revId": "cf111ae260ae3c7a7e3fde2edd310d47b4f66019",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
