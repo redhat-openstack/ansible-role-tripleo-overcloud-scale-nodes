@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_19437b6d",
+        "filename": "setup.cfg",
+        "patchSetId": 17
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1007211
+      },
+      "writtenOn": "2016-06-02T18:09:29Z",
+      "side": 1,
+      "message": "can we nix the \u0027tripleo-quickstart\u0027 bit on the left side? \n\nAlso, why on the right side for playbooks are we using a simple relative path, vs. \"../ansible-role-tripleo-overcloud-scale-nodes/\" syntax above?  Can the rest use the shortened form as well?",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 46
+      },
+      "revId": "290ca1184f17c719439f10c77f1b12c88b114c02",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
