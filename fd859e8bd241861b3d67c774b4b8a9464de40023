@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_95e60443",
+        "filename": "playbooks/scale_nodes_verify.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000586
+      },
+      "writtenOn": "2016-06-13T17:02:51Z",
+      "side": 1,
+      "message": "why not say hosts: all",
+      "revId": "fd859e8bd241861b3d67c774b4b8a9464de40023",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
