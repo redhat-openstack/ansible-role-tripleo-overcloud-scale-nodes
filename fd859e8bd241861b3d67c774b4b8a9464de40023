@@ -16,6 +16,24 @@
       "revId": "fd859e8bd241861b3d67c774b4b8a9464de40023",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_75a9407b",
+        "filename": "playbooks/scale_nodes_verify.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1007211
+      },
+      "writtenOn": "2016-06-13T18:32:09Z",
+      "side": 1,
+      "message": "+1.  hosts:all unless there is a compelling reason not to do so.",
+      "parentUuid": "baa041b7_95e60443",
+      "revId": "fd859e8bd241861b3d67c774b4b8a9464de40023",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
