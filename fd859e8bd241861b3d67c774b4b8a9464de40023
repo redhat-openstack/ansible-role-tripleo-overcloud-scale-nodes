@@ -1,0 +1,8 @@
+Verified+1: Harry Rybacki <hrybacki@gmail.com>
+Code-Review+2: Harry Rybacki <hrybacki@gmail.com>
+Code-Review+1: Matt Young <myoung@redhat.com>
+Submitted-by: Harry Rybacki <hrybacki@gmail.com>
+Submitted-at: Tue, 14 Jun 2016 07:47:52 -0400
+Reviewed-on: https://review.gerrithub.io/280143
+Project: redhat-openstack/ansible-role-tripleo-overcloud-scale-nodes
+Branch: refs/heads/master
