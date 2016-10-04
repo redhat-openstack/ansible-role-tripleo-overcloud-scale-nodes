@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_ecedff25",
+        "filename": "templates/delete-node.j2",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-10-04T13:21:52Z",
+      "side": 1,
+      "message": "missing space before }}",
+      "range": {
+        "startLine": 5,
+        "startChar": 26,
+        "endLine": 5,
+        "endChar": 39
+      },
+      "revId": "63715e501530546e8c42c6ffd2a5b48d5a86e9b5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_8cdd5372",
+        "filename": "templates/scale-deployment.j2",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-10-04T13:21:52Z",
+      "side": 1,
+      "message": "I think we can remove the \"!\" to be more consistent.",
+      "range": {
+        "startLine": 29,
+        "startChar": 24,
+        "endLine": 29,
+        "endChar": 25
+      },
+      "revId": "63715e501530546e8c42c6ffd2a5b48d5a86e9b5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
