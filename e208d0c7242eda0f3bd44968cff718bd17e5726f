@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_4f197d79",
+        "filename": "templates/delete-node.j2",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-10-04T15:24:12Z",
+      "side": 1,
+      "message": "That\u0027s not what I meant. :)",
+      "range": {
+        "startLine": 5,
+        "startChar": 39,
+        "endLine": 5,
+        "endChar": 42
+      },
+      "revId": "e208d0c7242eda0f3bd44968cff718bd17e5726f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
