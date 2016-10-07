@@ -22,6 +22,30 @@
       "revId": "e208d0c7242eda0f3bd44968cff718bd17e5726f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_3e689bf4",
+        "filename": "templates/delete-node.j2",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-10-07T17:39:24Z",
+      "side": 1,
+      "message": "lol. It pains me to know that this will live on the internet forever. #simpleMistakes",
+      "parentUuid": "baa041b7_4f197d79",
+      "range": {
+        "startLine": 5,
+        "startChar": 39,
+        "endLine": 5,
+        "endChar": 42
+      },
+      "revId": "e208d0c7242eda0f3bd44968cff718bd17e5726f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
