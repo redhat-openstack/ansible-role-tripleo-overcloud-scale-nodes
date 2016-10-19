@@ -1,6 +1,7 @@
-# UUID             	Group Name
+# UUID                                  	Group Name
 #
-user:HarryRybacki  	user/Harry Rybacki (HarryRybacki)
-user:gabrielecerami	user/Gabriele Cerami (gabrielecerami)
-user:rdo-ci-centos 	user/rdo-ci-centos
-user:weshayutin    	user/wes hayutin (weshayutin)
+b493ce4e93258776698bf2fec3c62040c15a9eb4	oooq-core
+user:HarryRybacki                       	user/Harry Rybacki (HarryRybacki)
+user:gabrielecerami                     	user/Gabriele Cerami (gabrielecerami)
+user:rdo-ci-centos                      	user/rdo-ci-centos
+user:weshayutin                         	user/wes hayutin (weshayutin)
