@@ -1,6 +1,13 @@
 ---
 
-# Prep for scale
+# Prepare deployment args
+- name: Enable pacemaker
+  set_fact:
+    pacemaker_args: >-
+      -e {{ artosn_overcloud_templates_path }}/environments/puppet-pacemaker.yaml
+  when: enable_pacemaker
+
+# Prep for scaling overcloud
 - name: Determine initial number of node(s) that will be scaled
   shell: >
     source "{{ artosn_working_dir }}/stackrc";
