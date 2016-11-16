@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_547a77bb",
+        "filename": "templates/delete-node.j2",
+        "patchSetId": 7
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000586
+      },
+      "writtenOn": "2016-11-16T18:02:25Z",
+      "side": 1,
+      "message": "meh.. not a fan of the prepending vars w/ art.  It\u0027s fairly unlikely someone will use two different tht paths between a deploy and scale.   I wonder if this can be avoided if facts are collected.",
+      "revId": "02911da0c38e7b9036f2bb117ab1e0e8ff86628e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
