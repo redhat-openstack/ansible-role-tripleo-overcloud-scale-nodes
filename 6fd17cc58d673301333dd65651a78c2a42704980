@@ -1,0 +1,7 @@
+Code-Review+2: wes hayutin <weshayutin@gmail.com>
+Verified+1: wes hayutin <weshayutin@gmail.com>
+Submitted-by: wes hayutin <weshayutin@gmail.com>
+Submitted-at: Wed, 16 Nov 2016 18:15:16 -0500
+Reviewed-on: https://review.gerrithub.io/301488
+Project: redhat-openstack/ansible-role-tripleo-overcloud-scale-nodes
+Branch: refs/heads/master
